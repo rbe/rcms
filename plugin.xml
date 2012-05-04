@@ -1,0 +1,40 @@
+<plugin name='rcms' version='0.1' grailsVersion='1.2.0&gt; *'>
+  <author>Ralf Bensmann</author>
+  <title>GrailsHelper plugin.</title>
+  <description>Several helpers for building Grails applications.</description>
+  <documentation>http://grails.org/Liquidui+Plugin</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.bensmann.rcms.RcmsController</resource>
+    <resource>com.bensmann.rcms.RcmsMenu</resource>
+    <resource>com.bensmann.rcms.RcmsMenuItem</resource>
+    <resource>com.bensmann.rcms.RcmsPage</resource>
+    <resource>com.bensmann.rcms.RcmsPageProfile</resource>
+    <resource>com.bensmann.rcms.RcmsPost</resource>
+    <resource>com.bensmann.rcms.RcmsProfile</resource>
+    <resource>com.bensmann.rcms.RcmsProfileCareer</resource>
+    <resource>com.bensmann.rcms.RcmsProfileCharacterize</resource>
+    <resource>com.bensmann.rcms.RcmsProfileEducation</resource>
+    <resource>com.bensmann.rcms.RcmsProfileFocus</resource>
+    <resource>com.bensmann.rcms.RcmsProfileFocusGroup</resource>
+    <resource>com.bensmann.rcms.RcmsProfileLanguage</resource>
+    <resource>com.bensmann.rcms.RcmsProfileMaritalStatus</resource>
+    <resource>com.bensmann.rcms.RcmsProfileOccupation</resource>
+    <resource>com.bensmann.rcms.RcmsStory</resource>
+    <resource>com.bensmann.rcms.RcmsTag</resource>
+    <resource>com.bensmann.rcms.RcmsContentService</resource>
+    <resource>com.bensmann.rcms.CodeTagLib</resource>
+    <resource>com.bensmann.rcms.RcmsTagLib</resource>
+  </resources>
+  <dependencies>
+    <plugin name='grailshelper' version='0.1' />
+    <plugin name='jcaptcha' version='1.0' />
+    <plugin name='mail' version='0.9' />
+    <resolvers>
+      <resolver type='grailsPlugins' name='grailsPlugins' />
+    </resolvers>
+  </dependencies>
+  <behavior />
+</plugin>
